@@ -1,0 +1,176 @@
+body {
+  background-color: #b6fffa;
+}
+.header {
+  background-color: #b6fffa;
+  color: #687eff;
+  text-align: center;
+  position: relative;
+  top: 0px;
+}
+.hbd {
+  font-family: 'Salsabela', sans-serif;
+  font-size: 50px;
+}
+.bar {
+  width: 100%;
+  height: 480px;
+}
+.rectangle {
+  width: 350px;
+  height: 480px;
+  position: relative;
+  left: 20%;
+}
+.box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #80b3ff;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 18px 38px 0 rgba(0, 0, 0, 0.19);
+}
+.photo {
+  position: relative;
+  width: 310px;
+  height: 310px;
+  border-radius: 25px;
+  left: 20px;
+  top: 20px;
+  margin-bottom: 30px;
+}
+.kina {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+.lagu {
+  position: relative;
+  width: 100%;
+  height: 60px;
+}
+.judul {
+  font-family: 'PBSSans-Bold', sans-serif;
+  font-size: 25px;
+  position: relative;
+  top: 0px;
+  left: 20px;
+  margin: 0;
+}
+.artis {
+  font-family: 'PBSSans-Bold', sans-serif;
+  font-size: 16px;
+  position: relative;
+  top: 0px;
+  left: 20px;
+  margin: 0;
+}
+.tombol {
+  width: 100%;
+  height: 60px;
+}
+.play {
+  position: relative;
+  width: 55px;
+  height: 55px;
+  background-color: #687eff;
+  border: none;
+  border-radius: 27.5px;
+  left: 92.5px;
+  top: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+.play:hover {
+  background-color: #3e5afc;
+}
+.play:active {
+  background-color: #687eff;
+  transform: translateY(-3px);
+}
+.prev {
+  position: relative;
+  width: 55px;
+  height: 55px;
+  background-color: #687eff;
+  border: none;
+  border-radius: 27.5px;
+  left: 70px;
+  top: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+.prev:hover {
+  background-color: #3e5afc;
+}
+.prev:active {
+  background-color: #687eff;
+  transform: translateY(-3px);
+}
+.forw {
+  position: relative;
+  width: 55px;
+  height: 55px;
+  background-color: #687eff;
+  border: none;
+  border-radius: 27.5px;
+  left: 115px;
+  top: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+.forw:hover {
+  background-color: #3e5afc;
+}
+.forw:active {
+  background-color: #687eff;
+  transform: translateY(-3px);
+}
+@media only screen and (max-width: 1080px) {
+  .hbd {
+    font-size: 100px;
+  }
+  .rectangle {
+    width: 700px;
+    height: 960px;
+    position: relative;
+    left: 50%-350px;
+  }
+  .box {
+    border-radius: 60px;
+  }
+  .photo {
+    width: 620px;
+    height: 620px;
+    border-radius: 50px;
+    left: 40px;
+    top: 40px;
+    margin-bottom: 50px;
+  }
+  .kina {
+    border-radius: 50px;
+  }
+  .lagu {
+    height: 120px;
+  }
+  .Judul {
+    font-size: 60px;
+    top: 10px;
+    left: 40px;
+  }
+  .artis {
+    font-size: 40px;
+    left: 40px;
+  }
+  .tombol {
+    height: 110px;
+  }
+  .play {
+    width: 110px;
+    height: 110px;
+    border-radius: 55px;
+    left: 295px;
+    top: 5px;
+  }
+}
