@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Kina's Birthday</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/11fad7c8a5.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.cdnfonts.com/css/salsabela" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/pbs-sans" rel="stylesheet" />
+    
+  <body>
+    <div>
+      <div class="header">
+        <h1 class="hbd">HAPPY BIRTHDAY KINA</h1>
+      </div>
+      <div class="bar">
+        <div class="rectangle">
+        <div class="box">
+          <div class="photo">
+            <img src="kina.jpeg" alt="" class="kina" />
+          </div>
+          <div class="lagu">
+            <p id="Judul" class="Judul">Lemonade</p>
+            <p id="artis" class="artis">Jeremy</p>
+          </div>
+          <div class="tombol">
+            <audio id="myAudio" autoplay>
+              <source
+                id="audioSource"
+                src="https://cdn.discordapp.com/attachments/901679715453116427/1163130537184079872/y2mate.com_-_jeremy_passion_lemonade_lyrics.mp3?ex=653e74b9&is=652bffb9&hm=4e9c9bc3f7a0505597f0b520c6c2f4ddb4c43b6d6dcaac3fb9615f6d4f4ae8ff&"
+                type="audio/mpeg"
+              />
+            </audio>
+            <button id="prev" class="prev" onclick="prevaudio()"><i class="fas fa-backward"></i></button>
+            <button id="play" onclick="playAudio()" class="play"><i onclick="playfunction(this)" class="fas fa-play" ></i></button>
+            <button id="next" class="forw" onclick="nextaudio()"><i class="fas fa-forward"></i></button>
+          </div>
+        </div>
+        </div>
+        <div>
+          <iframe style="border-radius:30px; position: absolute; top: 134; left: 55%;" src="https://open.spotify.com/embed/playlist/0gHVLYN1YtOn3Bxv6CJ68m?utm_source=generator" width="380px" height="480" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
