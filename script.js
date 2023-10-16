@@ -16,8 +16,10 @@ var source = document.getElementById('audioSource');
 function playAudio() {
   if (x.paused) {
     x.play();
+    document.getElementById('play').innerHTML = '<i class="fa fa-pause" aria-hidden="true"></i>';
   } else {
     x.pause();
+    document.getElementById('play').innerHTML = '<i class="fas fa-play" aria-hidden="true" ></i>';
   }
 }
 
@@ -32,6 +34,9 @@ function nextaudio() {
     document.getElementById('artis').innerHTML = listmusik[musikkeberapa].penyanyi;
     source.src = listmusik[musikkeberapa].link;
     x.load();
+    if (x.play) {
+      document.getElementById('play').innerHTML = '<i class="fa fa-pause" aria-hidden="true"></i>';
+    }
   }
 }
 
@@ -46,6 +51,9 @@ function prevaudio() {
     document.getElementById('artis').innerHTML = listmusik[musikkeberapa].penyanyi;
     source.src = listmusik[musikkeberapa].link;
     x.load();
+    if (x.play) {
+      document.getElementById('play').innerHTML = '<i class="fa fa-pause" aria-hidden="true"></i>';
+    }
   }
 }
 
